@@ -21,6 +21,7 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px 5px 6px grey;
     
 }
 
@@ -40,4 +41,29 @@ hr{
 
 .imgtext{
     opacity: 1;
+}
+
+li{
+  border-width: 2px;
+  border-color: white;
+}
+
+p.HeadingFont{
+  font-size: 40px;
+}
+
+p.sectionHeading{
+  font-size: 30px;
+  font-weight: initial;
+}
+
+@media only screen and (max-width: 576px) { 
+	p.HeadingFont {
+			font-size: 25px;
+			}
+}
+
+li:hover
+{
+  text-decoration: underline;;
 }
